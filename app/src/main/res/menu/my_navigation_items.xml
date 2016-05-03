@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/rd1"
+        android:orderInCategory="100"
+        android:title="Random 1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rd2"
+        android:title="Random 2" />
+
+    <item
+        android:id="@+id/rd3"
+        android:title="Random 2" />
+    <item
+        android:id="@+id/rd4"
+        android:title="Random 2" />
+    <item
+        android:id="@+id/rd5"
+        android:title="Random 2" />
+</menu>

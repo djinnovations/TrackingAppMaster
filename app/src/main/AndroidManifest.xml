@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.mohamedbahaaeddine.trackingappmaster">
+    package="edu.bahhadj.tam">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -32,7 +32,7 @@
             android:value="AIzaSyB4Tn87fz1QYS-BiyUNEfL3yTzWE52wv4o" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name="edu.bahhadj.tam.screens.MapsActivity"
             android:label="@string/title_activity_maps"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -41,6 +41,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>
